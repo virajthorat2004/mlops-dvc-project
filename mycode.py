@@ -14,7 +14,7 @@ with open(file_path, "a", newline="") as file:
         writer.writerow(["id", "name", "value"])
 
     writer.writerow([1, "A", 100])
-    writer.writerow([2, "B", 200])
+    writer.writerow([2, "B", 400])
     writer.writerow([3, "C", 300])
 
 print("Data generated successfully.")
